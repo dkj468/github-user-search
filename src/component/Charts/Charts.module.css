@@ -1,0 +1,17 @@
+
+.wrapper {
+    display: grid;
+    justify-items: center;
+    gap: 2rem;
+}
+
+.wrapper div{
+    height: 350px;
+    width: 90% !important;
+}
+
+@media (min-width: 800px){
+    .wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+}
